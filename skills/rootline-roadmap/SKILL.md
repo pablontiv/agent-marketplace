@@ -13,21 +13,13 @@ description: |
   "roadmap loop", "ejecutar roadmap",
   "crear roadmap del plan", "materializar plan",
   or provides free text describing work to decompose.
-argument-hint: "<texto libre> | [pending|loop|plan] [args]"
-allowed-tools:
-  - Write
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - TaskCreate
-  - TaskList
-  - TaskUpdate
-  - TaskGet
-  - Skill
-  - AskUserQuestion
-  - ExitPlanMode
 ---
+
+## Prerequisites
+
+- `rootline` CLI must be installed and available in PATH
+- Install from [GitHub Releases](https://github.com/pablontiv/rootline/releases) or run `./install.sh` from this repository
+- Project must use rootline's `.stem` schema system with `docs/epics/` hierarchy
 
 # /roadmap — Framework de Planificación AI-Native
 

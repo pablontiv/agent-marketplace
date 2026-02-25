@@ -6,9 +6,13 @@ description: |
   This skill should be used when the user says "validate", "check schema", "validar",
   "verificar", "check this file", "are there any errors", "is this correct", "lint",
   "verify", "revisar esquema", or wants to confirm documents comply with .stem definitions.
-argument-hint: "[file-or-directory]"
-allowed-tools: Bash, Read
 ---
+
+## Prerequisites
+
+- `rootline` CLI must be installed and available in PATH
+- Install from [GitHub Releases](https://github.com/pablontiv/rootline/releases) or run `./install.sh` from this repository
+- Project must contain `.stem` schema files for validation to work
 
 # /validate — Document Validation
 

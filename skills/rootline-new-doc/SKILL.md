@@ -7,9 +7,13 @@ description: |
   "scaffold", "create a new file", "add a document", "nuevo archivo",
   "add a task", "new record", "nueva tarea", "rootline new",
   or wants to create a structured document in a rootline-managed directory.
-argument-hint: "[directory-or-filepath]"
-allowed-tools: Bash, AskUserQuestion
 ---
+
+## Prerequisites
+
+- `rootline` CLI must be installed and available in PATH
+- Install from [GitHub Releases](https://github.com/pablontiv/rootline/releases) or run `./install.sh` from this repository
+- Target directory must have `.stem` schema files for frontmatter generation
 
 # /new-doc — Document Scaffolding
 
