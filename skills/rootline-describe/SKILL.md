@@ -7,13 +7,9 @@ description: |
   "que campos necesito", "what fields are required", "what metadata is needed",
   "show me the fields", "stem rules", "describe this directory",
   or wants to understand document structure for a path.
+argument-hint: "[directory-or-file]"
+allowed-tools: Bash
 ---
-
-## Prerequisites
-
-- `rootline` CLI must be installed and available in PATH
-- Install from [GitHub Releases](https://github.com/pablontiv/rootline/releases) or run `./install.sh` from this repository
-- Project must contain `.stem` schema files in the directory hierarchy
 
 # /describe — Schema Inspector
 
