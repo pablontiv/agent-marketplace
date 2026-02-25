@@ -1,0 +1,25 @@
+{
+  "name": "rootline-agent-skills",
+  "owner": {
+    "name": "Pablo Ontivero",
+    "email": "pablontiv@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Rootline CLI skills for structured documentation management",
+    "version": "0.9.0"
+  },
+  "plugins": [
+    {
+      "name": "rootline-core",
+      "description": "Core skills for rootline-powered structured documentation: validation, schema inspection, document scaffolding, and AI-native project planning",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/rootline-roadmap",
+        "./skills/rootline-validate",
+        "./skills/rootline-describe",
+        "./skills/rootline-new-doc"
+      ]
+    }
+  ]
+}
