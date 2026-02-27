@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Rootline CLI skills for structured documentation management",
-    "version": "0.9.15"
+    "version": "0.9.23"
   },
   "plugins": [
     {
