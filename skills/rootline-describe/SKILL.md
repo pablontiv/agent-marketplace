@@ -1,12 +1,10 @@
 ---
 name: describe
+deprecated: true
 description: |
-  Show the effective .stem schema for a directory using rootline CLI.
-  Displays fields, types, required status, enum values, and which .stem file defines each rule.
-  This skill should be used when the user says "describe schema", "show schema",
-  "que campos necesito", "what fields are required", "what metadata is needed",
-  "show me the fields", "stem rules", "describe this directory",
-  or wants to understand document structure for a path.
+  DEPRECATED — Use /rootline skill (global) instead.
+  The /rootline skill covers describe, validate, new-doc, and all other
+  rootline CLI operations in a single unified skill.
 argument-hint: "[directory-or-file]"
 allowed-tools: Bash
 ---

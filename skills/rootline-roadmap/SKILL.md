@@ -1,10 +1,10 @@
 ---
 name: roadmap
+deprecated: true
 description: |
-  AI-native planning framework for autonomous project decomposition.
-  Accepts free text to decompose into epics, features, stories, and tasks.
-  Subcommands: pending, loop, plan. Without arguments shows decision tree.
-  Tasks are self-contained units with technical specs and binary acceptance criteria.
+  DEPRECATED — Use /roadmap from the praxis framework instead.
+  The praxis /roadmap skill has rootline integration, progressive disclosure,
+  and is actively maintained. This marketplace version is outdated.
   This skill should be used when the user says "descomponer en features",
   "crear roadmap de X", "estructura de X",
   "planificar implementación de X", "qué sigue", "ver roadmap",

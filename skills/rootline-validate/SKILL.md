@@ -1,11 +1,10 @@
 ---
 name: validate
+deprecated: true
 description: |
-  Validate documents against .stem schemas using rootline CLI.
-  Checks frontmatter fields for required values, enum constraints, and structural rules.
-  This skill should be used when the user says "validate", "check schema", "validar",
-  "verificar", "check this file", "are there any errors", "is this correct", "lint",
-  "verify", "revisar esquema", or wants to confirm documents comply with .stem definitions.
+  DEPRECATED — Use /rootline skill (global) instead.
+  The /rootline skill covers validate, describe, new-doc, and all other
+  rootline CLI operations in a single unified skill.
 argument-hint: "[file-or-directory]"
 allowed-tools: Bash, Read
 ---

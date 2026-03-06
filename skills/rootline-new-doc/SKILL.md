@@ -1,12 +1,10 @@
 ---
 name: new-doc
+deprecated: true
 description: |
-  Scaffold a new document with correct frontmatter based on .stem schema.
-  Uses auto-numbering to generate the next ID automatically.
-  This skill should be used when the user says "new doc", "crear documento",
-  "scaffold", "create a new file", "add a document", "nuevo archivo",
-  "add a task", "new record", "nueva tarea", "rootline new",
-  or wants to create a structured document in a rootline-managed directory.
+  DEPRECATED — Use /rootline skill (global) instead.
+  The /rootline skill covers new-doc, describe, validate, and all other
+  rootline CLI operations in a single unified skill.
 argument-hint: "[directory-or-filepath]"
 allowed-tools: Bash, AskUserQuestion
 ---

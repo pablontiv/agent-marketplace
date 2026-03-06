@@ -1,6 +1,10 @@
 ---
 name: investigate
-description: Investigación estructurada de 5 fases con trazabilidad lógica. Detecta automáticamente el estado del documento y actúa en consecuencia.
+description: |
+  DEPRECATED — Use /hypothesize from the praxis framework instead.
+  This skill is superseded by the hypothesize skill which adds rootline
+  integration, frontmatter validation, and progressive disclosure.
+deprecated: true
 disable-model-invocation: true
 argument-hint: "[tema-nuevo] o [archivo-existente.md]"
 ---
