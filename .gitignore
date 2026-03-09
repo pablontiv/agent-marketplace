@@ -1,0 +1,6 @@
+# Claude Code skill workspaces
+*-workspace/
+
+# OS
+.DS_Store
+Thumbs.db
